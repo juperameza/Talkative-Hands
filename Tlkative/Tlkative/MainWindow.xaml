@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tlkative.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tlkative"
+        mc:Ignorable="d"
+        Title="Sign in" Height="450" Width="800" Background="Beige" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Welcome please sign in" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center" Height="45" Margin="276,35,230,0" VerticalAlignment="Top" Width="286"/>
+        <Label  Content="Username" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Left" Height="44" Margin="10,107,0,0" VerticalAlignment="Top" Width="117"/>
+        <TextBox Name="txtUser" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="20" Height="37" Margin="10,151,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="324"/>
+        <Label Content="Password" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Left" Height="34" Margin="10,193,0,0" VerticalAlignment="Top" Width="103"/>
+        <PasswordBox Name="txtPass" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Left" Height="36" Margin="10,247,0,0" VerticalAlignment="Top" Width="324"/>
+        <Button Content="Sign in" Name="btnSignin" FontFamily="Century Gothic" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="86" Margin="10,311,0,0" VerticalAlignment="Top" Width="145" Click="BtnSignin_Click"/>
+        <Button Content="Sign up" Name="btnSignup" FontFamily="Century Gothic" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="86" Margin="189,311,0,0" VerticalAlignment="Top" Width="145" Click="BtnSignup_Click"/>
+
+    </Grid>
+</Window>
