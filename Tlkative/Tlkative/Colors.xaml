@@ -8,6 +8,7 @@
         Title="Colors" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Image HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Source="Categorias/colores.jpg" Stretch="Fill"/>
+        <Button Content="Go back" FontFamily="Century Gothic" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click"/>
 
     </Grid>
 </Window>

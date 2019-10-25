@@ -23,5 +23,13 @@ namespace Tlkative
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Topics temas = new Topics();
+            this.Hide();
+            temas.Show();
+            this.Close();
+        }
     }
 }
