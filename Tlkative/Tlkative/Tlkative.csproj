@@ -57,26 +57,106 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="5ws.xaml.cs">
+      <DependentUpon>5ws.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Accesories.xaml.cs">
+      <DependentUpon>Accesories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Alphabet.xaml.cs">
       <DependentUpon>Alphabet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Animals.xaml.cs">
+      <DependentUpon>Animals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Clothing.xaml.cs">
+      <DependentUpon>Clothing.xaml</DependentUpon>
     </Compile>
     <Compile Include="Colors.xaml.cs">
       <DependentUpon>Colors.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Days.xaml.cs">
+      <DependentUpon>Days.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Family.xaml.cs">
+      <DependentUpon>Family.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Financial.xaml.cs">
+      <DependentUpon>Financial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Jobs.xaml.cs">
+      <DependentUpon>Jobs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Medical.xaml.cs">
+      <DependentUpon>Medical.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Name.xaml.cs">
+      <DependentUpon>Name.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Numbers.xaml.cs">
       <DependentUpon>Numbers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ocupations.xaml.cs">
+      <DependentUpon>Ocupations.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Payments.xaml.cs">
+      <DependentUpon>Payments.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pronouns.xaml.cs">
+      <DependentUpon>Pronouns.xaml</DependentUpon>
     </Compile>
     <Compile Include="SUP.xaml.cs">
       <DependentUpon>SUP.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Symptoms.xaml.cs">
+      <DependentUpon>Symptoms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Time.xaml.cs">
+      <DependentUpon>Time.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Topics.xaml.cs">
       <DependentUpon>Topics.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Verb.xaml.cs">
+      <DependentUpon>Verb.xaml</DependentUpon>
+    </Compile>
+    <Page Include="5ws.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Accesories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Alphabet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Animals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Clothing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Days.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Family.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Financial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Jobs.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,7 +172,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Medical.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Name.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Numbers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ocupations.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Payments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pronouns.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,7 +200,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Symptoms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Time.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Topics.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Verb.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -131,7 +243,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Categorias\5w.jpg" />
+    <Resource Include="Categorias\Animals.jpg" />
+    <Resource Include="Categorias\Name.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Categorias\alfabeto.png" />
   </ItemGroup>
@@ -140,6 +256,25 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Categorias\Numeros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Categorias\Accesories.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Categorias\Clothing.jpg" />
+    <Resource Include="Categorias\days.jpg" />
+    <Resource Include="Categorias\Financial.jpg" />
+    <Resource Include="Categorias\Jobs.jpg" />
+    <Resource Include="Categorias\Medical p.jpg" />
+    <Resource Include="Categorias\Ocupations.jpg" />
+    <Resource Include="Categorias\Payments.jpg" />
+    <Resource Include="Categorias\Pronouns.jpg" />
+    <Resource Include="Categorias\Symptoms.jpg" />
+    <Resource Include="Categorias\Time.jpg" />
+    <Resource Include="Categorias\verbs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Categorias\familia.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

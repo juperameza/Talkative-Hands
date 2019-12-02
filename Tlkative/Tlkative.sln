@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlkative", "Tlkative\Tlkative.csproj", "{AC3B5139-342B-4523-8003-1C25D827771F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Talkativehands", "Talkativehands\Talkativehands.vdproj", "{703110CF-F5D6-49A5-9701-846F51F3850E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{AC3B5139-342B-4523-8003-1C25D827771F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3B5139-342B-4523-8003-1C25D827771F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3B5139-342B-4523-8003-1C25D827771F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{703110CF-F5D6-49A5-9701-846F51F3850E}.Debug|Any CPU.ActiveCfg = Debug
-		{703110CF-F5D6-49A5-9701-846F51F3850E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,6 +14,22 @@
             <ComboBoxItem Content="Alphabet"/>
             <ComboBoxItem Content="Numbers"/>
             <ComboBoxItem Content="Colors"/>
+            <ComboBoxItem Content="The five w's"/>
+            <ComboBoxItem Content="Accesories"/>
+            <ComboBoxItem Content="Animals"/>
+            <ComboBoxItem Content="Clothing"/>
+            <ComboBoxItem Content="Days"/>
+            <ComboBoxItem Content="Family"/>
+            <ComboBoxItem Content="Financial"/>
+            <ComboBoxItem Content="Jobs"/>
+            <ComboBoxItem Content="Medical"/>
+            <ComboBoxItem Content="Name"/>
+            <ComboBoxItem Content="Ocupations"/>
+            <ComboBoxItem Content="Payments"/>
+            <ComboBoxItem Content="Pronouns"/>
+            <ComboBoxItem Content="Symptoms"/>
+            <ComboBoxItem Content="Time"/>
+            <ComboBoxItem Content="Verbs"/>
         </ComboBox>
         <Button Content="Done" FontWeight="Bold" FontFamily="Century Gothic" FontSize="25" HorizontalAlignment="Left" Height="131" Margin="250,262,0,0" VerticalAlignment="Top" Width="304" Click="Button_Click"/>
 

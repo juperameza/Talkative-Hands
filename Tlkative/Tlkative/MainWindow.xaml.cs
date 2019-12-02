@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.OleDb;//Agregamos libreria OleDB
+using System.Data; //Agregamos System.Data
 
 namespace Tlkative
 {
@@ -20,15 +22,19 @@ namespace Tlkative
     /// </summary>
     public partial class MainWindow : Window
     {
+        OleDbConnection con; //Agregamos la conexión
+        DataTable dt;   //Agregamos la tabla
         public MainWindow()
         {
             InitializeComponent();
-
+            con = new OleDbConnection();
+            con.ConnectionString = "Provider=Microsoft.Jet.Oledb.4.0; Data Source=" + AppDomain.CurrentDomain.BaseDirectory + "\\Tlktive.mdb";
         }
 
         private void BtnSignin_Click(object sender, RoutedEventArgs e)
         {
-            if(txtUser.Text=="juperameza" && txtPass.Password == "tonicol")
+
+            if(txtUser.Text=="juperameza" && txtPass.Password == "tonicol" || txtUser.Text == "cori" && txtPass.Password == "sanchez" || txtUser.Text == "juana" && txtPass.Password == "sibe" || txtUser.Text == "Toño" && txtPass.Password == "disney")
             {
                 
                 this.Hide();

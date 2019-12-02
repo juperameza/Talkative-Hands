@@ -15,21 +15,20 @@ using System.Windows.Shapes;
 namespace Tlkative
 {
     /// <summary>
-    /// Lógica de interacción para SUP.xaml
+    /// Lógica de interacción para Name.xaml
     /// </summary>
-    public partial class SUP : Window
+    public partial class Name : Window
     {
-        public SUP()
+        public Name()
         {
             InitializeComponent();
         }
 
-        private void BtnSUP_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-
-            Topics Ventanatopic = new Topics();
-            Ventanatopic.Show();
+            Topics temas = new Topics();
+            this.Hide();
+            temas.Show();
             this.Close();
         }
     }
